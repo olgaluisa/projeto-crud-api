@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Input } from './components/ui/input';
+import TodoItemForm from './components/TodoItemForm';
 
 export type TaskType = {
   id: number;
@@ -15,10 +15,11 @@ function App() {
   const [selectId, setSelectId] = useState<number | null>(null);
   const [modal, setModal] = useState(false);
 
-  return <>
-  
-  
-  </>;
+  return (
+    <>
+      <TodoItemForm />
+    </>
+  );
 }
 
 export default App;
