@@ -1,3 +1,14 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "id": "bf56",
+      "title": "Aprender React",
+      "description": "Estudar 2 vezes na semana"
+    },
+    {
+      "id": "11b8",
+      "title": "Estudar Nextjs",
+      "description": "1 vez por semana"
+    }
+  ]
 }
